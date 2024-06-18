@@ -1,0 +1,164 @@
+/*Estilo de la pagina 1Principal*/
+body {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    background-color: #0080ff;
+}
+
+.logo-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    width: 500px;
+    height: 250px;
+}
+
+.table-responsive {
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, #35bbf0, #ffffff); /* Degradado celeste a azul */
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.button-table td {
+    padding: 2px;
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.button::after {
+    font-size: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.blue-light { background-color: #000000; }
+.blue { background-color: #000000; }
+.green-light { background-color: #000000; }
+.green { background-color: #000000; }
+.yellow { background-color: #000000; }
+.orange { background-color: #000000; }
+.pink { background-color: #000000; }
+.purple { background-color: #000000; }
+.red { background-color: #000000; }
+.green-dark { background-color: #000000; }
+
+
+/*Configuraciones para las imagenes*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #007bff;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-inner img {
+    width: 25%;
+    height: auto;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-40%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 3px;
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        width: 100%;
+    }
+    
+    button.prev, button.next {
+        padding: 10px;
+    }
+}
+
+
+/*contacto*/
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+.facebook-button {
+    display: inline-block;
+    background-color: #2f00ff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.facebook-button:hover {
+    background-color: #128C7E;
+}
+
+.titulo1{
+    color: white;
+    text-align: center;
+    background-color: #000000;
+    padding: 10px 20px;
+}
